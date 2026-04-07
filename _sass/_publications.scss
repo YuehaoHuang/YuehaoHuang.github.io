@@ -46,11 +46,24 @@
       .abbr {
         margin-bottom: 0.5rem;
 
+        .preview {
+          display: block;
+          margin-bottom: 0.5rem;
+        }
+
         abbr {
           display: inline-block;
           background-color: var(--global-theme-color);
           margin-bottom: 0.5rem;
           color: var(--global-card-bg-color) !important;
+
+          &.venue-badge {
+            width: auto;
+            min-width: 3.1rem;
+            text-align: center;
+            padding-left: 0.7rem;
+            padding-right: 0.7rem;
+          }
 
           a {
             color: white;
@@ -81,12 +94,12 @@
           }
         }
 
-        > em {
+        >em {
           border-bottom: 1px solid;
           font-style: normal;
         }
 
-        > span.more-authors {
+        >span.more-authors {
           color: var(--global-text-color-light);
           border-bottom: 1px dashed var(--global-text-color-light);
           cursor: pointer;
@@ -113,6 +126,7 @@
             border-color: var(--global-theme-color);
           }
         }
+
         a.award.btn {
           border-color: var(--global-highlight-color);
         }
@@ -120,6 +134,7 @@
 
       .badges {
         padding-bottom: 0.5rem;
+
         span {
           display: inline-block;
           color: v.$black-color;
@@ -173,9 +188,11 @@
         border-color: var(--global-text-color);
       }
     }
+
     div.award.hidden {
       border: dashed 1px var(--global-bg-color);
     }
+
     div.award.hidden.open {
       border-color: var(--global-highlight-color);
     }
