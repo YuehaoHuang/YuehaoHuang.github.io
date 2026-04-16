@@ -14,7 +14,7 @@ profile:
   #   <p>Your City, State 12345</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: false # temporarily hide social icons at the bottom of the page
+social: True # temporarily hide social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
