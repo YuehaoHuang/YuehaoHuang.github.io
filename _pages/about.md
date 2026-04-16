@@ -27,12 +27,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am currently pursuing my Ph.D. degree at the College of Control Science and Engineering at [Zhejiang University](https://www.zju.edu.cn/english/) since 2023, where I work in the [April Lab](https://april.zju.edu.cn/) under the supervision of [Prof. Yong Liu](https://person.zju.edu.cn/yongliu). Alongside my doctoral studies, I am a research intern at the [Institute of Artificial Intelligence of China Telecom (TeleAI)](https://www.teleai.com/), exploring the application of world models in vision-language navigation. Prior to this, I received my B.Eng. degree in Intelligence Science and Technology from Hangzhou Dianzi University in 2023 under the guidance of [Prof. Qiuxuan Wu](https://scholar.google.com.hk/citations?hl=zh-CN&user=MhV8JjIAAAAJ).
+I am currently pursuing my Ph.D. degree at the College of Control Science and Engineering at [Zhejiang University](https://www.zju.edu.cn/english/) since 2023, where I work in the [April Lab](https://april.zju.edu.cn/) under the supervision of [Prof. Yong Liu](https://person.zju.edu.cn/yongliu). Alongside my doctoral studies, I am a research intern at the [Institute of Artificial Intelligence of China Telecom (TeleAI)](https://www.teleai.com/). Prior to this, I received my B.Eng. degree in Intelligence Science and Technology from Hangzhou Dianzi University in 2023 under the guidance of [Prof. Qiuxuan Wu](https://scholar.google.com.hk/citations?hl=zh-CN&user=MhV8JjIAAAAJ).
 
 ## Research Interests
 
 The following are my current research interests:
 
-- Embodied AI
+- Embodied Navigation
 - Autonomous Driving
 - AIGC
