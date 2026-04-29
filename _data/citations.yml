@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-22'
+  last_updated: '2026-04-29'
 papers:
   SUVd_ZIAAAAJ:2osOgNQ5qMEC:
     citations: 3
@@ -18,10 +18,10 @@ papers:
     title: Monocular event-inertial odometry with adaptive decay-based time surface and polarity-aware tracking
     year: '2024'
   SUVd_ZIAAAAJ:qjMakFHDy7sC:
-    citations: 1
+    citations: 2
     title: 'SimGenHOI: Physically Realistic Whole-Body Humanoid-Object Interaction via Generative Modeling and Reinforcement Learning'
     year: '2025'
   SUVd_ZIAAAAJ:u5HHmVD_uO8C:
-    citations: 11
+    citations: 12
     title: 'Riders: Radar-infrared depth estimation for robust sensing'
     year: '2024'
