@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎉 Paper Drive-Cascade: Autoregressive Occupancy to LiDAR and Video Synthesis is accepted by *CVPR findings 2026* !
+🎉 Paper [Drive-Cascade: Autoregressive Occupancy to LiDAR and Video Synthesis](https://summersray.github.io/Drive-Cascade/) is accepted by *CVPR findings 2026* !
