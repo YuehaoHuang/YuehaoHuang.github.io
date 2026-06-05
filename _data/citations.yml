@@ -1,27 +1,35 @@
 metadata:
-  last_updated: '2026-04-29'
+  last_updated: '2026-06-05'
 papers:
   SUVd_ZIAAAAJ:2osOgNQ5qMEC:
-    citations: 3
+    citations: 7
     title: 'Cogddn: A cognitive demand-driven navigation with decision optimization and dual-process thinking'
     year: '2025'
   SUVd_ZIAAAAJ:IjCSPb-OGe4C:
-    citations: 3
-    title: 'MAS-Bench: A Unified Benchmark for Shortcut-Augmented Hybrid Mobile GUI Agents'
+    citations: 4
+    title: 'Mas-bench: A unified benchmark for shortcut-augmented hybrid mobile gui agents'
     year: '2025'
-  SUVd_ZIAAAAJ:Y0pCki6q_DkC:
+  SUVd_ZIAAAAJ:W7OEmFMy1HYC:
     citations: 0
+    title: 'Drive-Cascade: Autoregressive Occupancy to LiDAR and Video Synthesis'
+    year: '2026'
+  SUVd_ZIAAAAJ:Y0pCki6q_DkC:
+    citations: 1
     title: 'PA-EVIO: Polarity-aided Event-Visual-Inertial Odometry with Adaptive Event Representation'
     year: '2026'
+  SUVd_ZIAAAAJ:YsMSGLbcyi4C:
+    citations: 0
+    title: 'SparseWorld: Enhancing End-to-End Autonomous Driving via World Models with Sparse Scene Representation'
+    year: '2026'
   SUVd_ZIAAAAJ:d1gkVwhDpl0C:
-    citations: 7
+    citations: 8
     title: Monocular event-inertial odometry with adaptive decay-based time surface and polarity-aware tracking
     year: '2024'
   SUVd_ZIAAAAJ:qjMakFHDy7sC:
-    citations: 2
+    citations: 3
     title: 'SimGenHOI: Physically Realistic Whole-Body Humanoid-Object Interaction via Generative Modeling and Reinforcement Learning'
     year: '2025'
   SUVd_ZIAAAAJ:u5HHmVD_uO8C:
-    citations: 12
+    citations: 13
     title: 'Riders: Radar-infrared depth estimation for robust sensing'
     year: '2024'
