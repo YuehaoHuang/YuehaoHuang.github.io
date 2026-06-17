@@ -108,7 +108,7 @@
 }
 
 @article{wang2026sparseworld,
-  abbr       = {ArXiv},
+  abbr       = {IROS},
   title      = {SparseWorld: Enhancing End-to-End Autonomous Driving via World Models with Sparse Scene Representation},
   author     = {Wang*, Ruoyu and Wang*, Jingke and Ma, Yukai and Huang, Yuehao and Lei, Shuangming and Xu, Guanglin and Ye, Aixue and Liu†, Yong},
   abstract   = {Recently, world models have made significant progress in enhancing end-to-end driving systems through both future situation forecasting and improved scene understanding. However, existing driving world models are typically built upon dense scene representations, causing high computational costs and redundant information. In this paper, we present SparseWorld, a lightweight world model that focuses on predicting only the critical layout of the scene, enabling efficient future forecasting for end-to-end driving systems. SparseWorld first performs autoregressive rollout to forecast future map elements and surrounding agents, enabling the model to learn how driving scenarios evolve over time. It then leverages these predicted futures to refine downstream motion prediction and trajectory planning. Specifically, we propose a Sparse Dreamer that anticipates future instances in the latent space through joint temporal and spatial attention. By interacting with predicted future instances, the motion planner captures more accurate motion patterns and generates more informed and safety-aware trajectories. Extensive experiments demonstrate that SparseWorld significantly reduces collision risk and achieves state-of-the-art performance on the open-loop planning metrics of the nuScenes dataset with a collision rate of 0.05%. Moreover, it substantially outperforms the baseline method in closed-loop planning metrics on the Bench2Drive benchmark. Supplementary material is available at the project page: https://wryzju.github.io/SparseWorld/.},
@@ -131,5 +131,17 @@
   html       = {https://arxiv.org/abs/2606.03682},
   demo       = {https://telehuman-gn0.github.io/},
   code       = {https://github.com/TeleHuman/GN0},
-  annotation = {* Equal contribution<br>‡ Project Lead<br>† Corresponding author}
+  annotation = {* Equal contribution<br>‡ Project Lead<br>† Corresponding author},
+  selected   = {true}
+}
+
+@article{li2026gn0,
+  abbr       = {IROS},
+  title      = {SAGE-Nav: Leveraging LLM Planning and Alignment Fusion for Hierarchical Scene Graph-Guided Navigation},
+  author     = {Su*, Hao and and Huang*, Yuehao and Ma, Yukai and Liu†, Yong and Lv†, Jiajun},
+  abstract   = {Object-Goal Navigation (ObjNav) requires embodied agents to autonomously locate specified targets relying exclusively on egocentric visual observations. Current monolithic methods often struggle with long-horizon reasoning and exhibit suboptimal generalization in novel environments. To overcome these limitations, we propose SAGE-Nav, a novel hierarchical framework that integrates the reasoning capabilities of Large Language Models (LLMs) with dynamic scene graphs. Crucially, our architecture effectively decouples asynchronous global semantic planning from the high-frequency reactive control loop. The LLM acts as a global planner, decomposing abstract instructions into a sequence of semantically grounded waypoints. To translate these plans into dense multimodal guidance, we design a Hierarchical Scene Graph Encoder (HSGE) that leverages relational graph convolutions to produce structure-aware embeddings preserving both semantic and spatial topology. Furthermore, we develop the Goal-aware Alignment-Fusion Network (GAFN) to dynamically fuse real-time perception with these structural priors. By utilizing an adaptive gating mechanism with an explicit inductive bias, GAFN ensures robust visual-topological alignment for the low-level policy. Extensive evaluations in the AI2-THOR and RoboTHOR environments demonstrate that SAGE-Nav achieves state-of-the-art performance, showcasing substantial gains in navigation efficiency and zero-shot generalizability while maintaining the minimal control latency necessary for physical robotic deployment.},
+  year       = {2026},
+  preview    = {sage-nav.png},
+  annotation = {* Equal contribution<br><br>† Corresponding author},
+  selected   = {true}
 }
