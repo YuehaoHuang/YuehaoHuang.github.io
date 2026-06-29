@@ -140,8 +140,23 @@
   title      = {SAGE-Nav: Leveraging LLM Planning and Alignment Fusion for Hierarchical Scene Graph-Guided Navigation},
   author     = {Su*, Hao and and Huang*, Yuehao and Ma, Yukai and Liu†, Yong and Lv†, Jiajun},
   abstract   = {Object-Goal Navigation (ObjNav) requires embodied agents to autonomously locate specified targets relying exclusively on egocentric visual observations. Current monolithic methods often struggle with long-horizon reasoning and exhibit suboptimal generalization in novel environments. To overcome these limitations, we propose SAGE-Nav, a novel hierarchical framework that integrates the reasoning capabilities of Large Language Models (LLMs) with dynamic scene graphs. Crucially, our architecture effectively decouples asynchronous global semantic planning from the high-frequency reactive control loop. The LLM acts as a global planner, decomposing abstract instructions into a sequence of semantically grounded waypoints. To translate these plans into dense multimodal guidance, we design a Hierarchical Scene Graph Encoder (HSGE) that leverages relational graph convolutions to produce structure-aware embeddings preserving both semantic and spatial topology. Furthermore, we develop the Goal-aware Alignment-Fusion Network (GAFN) to dynamically fuse real-time perception with these structural priors. By utilizing an adaptive gating mechanism with an explicit inductive bias, GAFN ensures robust visual-topological alignment for the low-level policy. Extensive evaluations in the AI2-THOR and RoboTHOR environments demonstrate that SAGE-Nav achieves state-of-the-art performance, showcasing substantial gains in navigation efficiency and zero-shot generalizability while maintaining the minimal control latency necessary for physical robotic deployment.},
+  journal    = {arXiv preprint arXiv:2606.25497},
   year       = {2026},
   preview    = {sage-nav.png},
+  html       = {https://arxiv.org/abs/2606.25497},
   annotation = {* Equal contribution<br><br>† Corresponding author},
   selected   = {true}
+}
+
+@article{wang2026drivestack,
+  abbr       = {ArXiv},
+  title      = {DriveStack-VLA: Render-Teacher Alignment for BEV-Based DeepStack Vision-Language-Action Model},
+  author     = {Wang*, Jingke and Zhao*, Zhenru and Lei, Shuangming and Su, Hao and Huang, Yuehao and Xie, Yijia and Tang, Kai and Xu, Guanglin and Ye, AiXue and Ma†, Yukai and Liu†, Yong},
+  abstract   = {Vision-Language-Action driving models convert a pretrained Vision-Language Model into a driving policy, allowing them to use world knowledge and follow language guidances. However, existing VLA driving models still lack driving-oriented spatial intelligence: their policies are mainly grounded on perspective image tokens and language priors, while precise motion planning requires metric geometry, top-down scene structure, and attention to safety-critical perceptual cues. This limitation makes current models vulnerable to weak visual geometry modeling and perceptual coverage in expert demonstrations. In this paper, we present DriveStack-VLA, a framework built upon a large VLM backbone. To strengthen the spatial grounding of VLA driving, we develop dual visual modeling components. We inject a Bird-Eye-View representation into the Large Language Model decoder through a DeepStack-style connection, and propose Render-Teacher Alignment to align the perceptual focus of real images with that of rasterized images. Furthermore, to bridge the gap in multimodal trajectory selection, we introduce a head-based self-critique module that ranks sampled trajectories and conditionally refines the best one. DriveStack-VLA achieves 91.6 PDMS on NAVSIMv1, 91.0 EPDMS on NAVSIMv2 (with the human penalty filter enabled), and a driving score of 79.49 with a success rate of 56.36\% on the closed-loop Bench2Drive. More visualizations are available on our project page: https://anonymous.4open.science/w/drivestack-vla/.},
+  journal    = {arXiv preprint arXiv:2606.24051},
+  year       = {2026},
+  preview    = {drivestack.jpg},
+  html       = {https://arxiv.org/abs/2606.24051},
+  demo       = {https://anonymous.4open.science/w/drivestack-vla/},
+  annotation = {* Equal contribution<br><br>† Corresponding author}
 }

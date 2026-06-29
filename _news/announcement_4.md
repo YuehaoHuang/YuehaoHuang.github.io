@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎉 Paper SAGE-Nav: Leveraging LLM Planning and Alignment Fusion for Hierarchical Scene Graph-Guided Navigation is accepted by *IROS 2026* !
+🎉 Paper [SAGE-Nav: Leveraging LLM Planning and Alignment Fusion for Hierarchical Scene Graph-Guided Navigation](https://arxiv.org/abs/2606.25497) is accepted by *IROS 2026* !
