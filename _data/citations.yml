@@ -1,20 +1,24 @@
 metadata:
-  last_updated: '2026-06-05'
+  last_updated: '2026-07-06'
 papers:
   SUVd_ZIAAAAJ:2osOgNQ5qMEC:
-    citations: 7
+    citations: 10
     title: 'Cogddn: A cognitive demand-driven navigation with decision optimization and dual-process thinking'
     year: '2025'
   SUVd_ZIAAAAJ:IjCSPb-OGe4C:
-    citations: 4
+    citations: 5
     title: 'Mas-bench: A unified benchmark for shortcut-augmented hybrid mobile gui agents'
-    year: '2025'
+    year: '2026'
   SUVd_ZIAAAAJ:W7OEmFMy1HYC:
     citations: 0
     title: 'Drive-Cascade: Autoregressive Occupancy to LiDAR and Video Synthesis'
     year: '2026'
+  SUVd_ZIAAAAJ:WF5omc3nYNoC:
+    citations: 0
+    title: 'DriveStack-VLA: Render-Teacher Alignment for BEV-Based DeepStack Vision-Language-Action Model'
+    year: '2026'
   SUVd_ZIAAAAJ:Y0pCki6q_DkC:
-    citations: 1
+    citations: 2
     title: 'PA-EVIO: Polarity-aided Event-Visual-Inertial Odometry with Adaptive Event Representation'
     year: '2026'
   SUVd_ZIAAAAJ:YsMSGLbcyi4C:
@@ -25,11 +29,19 @@ papers:
     citations: 8
     title: Monocular event-inertial odometry with adaptive decay-based time surface and polarity-aware tracking
     year: '2024'
+  SUVd_ZIAAAAJ:eQOLeE2rZwMC:
+    citations: 1
+    title: 'GN0: Toward a Unified Paradigm for Generation, Evaluation, and Policy Learning in Visual-Language Navigation'
+    year: '2026'
   SUVd_ZIAAAAJ:qjMakFHDy7sC:
-    citations: 3
+    citations: 5
     title: 'SimGenHOI: Physically Realistic Whole-Body Humanoid-Object Interaction via Generative Modeling and Reinforcement Learning'
     year: '2025'
   SUVd_ZIAAAAJ:u5HHmVD_uO8C:
-    citations: 13
+    citations: 16
     title: 'Riders: Radar-infrared depth estimation for robust sensing'
     year: '2024'
+  SUVd_ZIAAAAJ:ufrVoPGSRksC:
+    citations: 0
+    title: 'SAGE-Nav: Leveraging LLM Planning and Alignment Fusion for Hierarchical Scene Graph-Guided Navigation'
+    year: '2026'
