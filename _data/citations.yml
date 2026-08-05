@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-07-13'
+  last_updated: '2026-08-05'
 papers:
   SUVd_ZIAAAAJ:2osOgNQ5qMEC:
-    citations: 10
+    citations: 9
     title: 'Cogddn: A cognitive demand-driven navigation with decision optimization and dual-process thinking'
     year: '2025'
   SUVd_ZIAAAAJ:IjCSPb-OGe4C:
@@ -26,16 +26,16 @@ papers:
     title: 'SparseWorld: Enhancing End-to-End Autonomous Driving via World Models with Sparse Scene Representation'
     year: '2026'
   SUVd_ZIAAAAJ:d1gkVwhDpl0C:
-    citations: 9
+    citations: 8
     title: Monocular event-inertial odometry with adaptive decay-based time surface and polarity-aware tracking
     year: '2024'
   SUVd_ZIAAAAJ:eQOLeE2rZwMC:
-    citations: 1
+    citations: 2
     title: 'GN0: Toward a Unified Paradigm for Generation, Evaluation, and Policy Learning in Visual-Language Navigation'
     year: '2026'
   SUVd_ZIAAAAJ:qjMakFHDy7sC:
     citations: 5
-    title: 'SimGenHOI: Physically Realistic Whole-Body Humanoid-Object Interaction via Generative Modeling and Reinforcement Learning'
+    title: 'Simgenhoi: Physically realistic whole-body humanoid-object interaction via generative modeling and reinforcement learning'
     year: '2025'
   SUVd_ZIAAAAJ:u5HHmVD_uO8C:
     citations: 16
