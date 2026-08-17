@@ -1,13 +1,17 @@
 metadata:
-  last_updated: '2026-08-05'
+  last_updated: '2026-08-17'
 papers:
   SUVd_ZIAAAAJ:2osOgNQ5qMEC:
-    citations: 9
+    citations: 10
     title: 'Cogddn: A cognitive demand-driven navigation with decision optimization and dual-process thinking'
     year: '2025'
   SUVd_ZIAAAAJ:IjCSPb-OGe4C:
     citations: 5
     title: 'Mas-bench: A unified benchmark for shortcut-augmented hybrid mobile gui agents'
+    year: '2026'
+  SUVd_ZIAAAAJ:UebtZRa9Y70C:
+    citations: 0
+    title: 'WNM-3D: A World Navigation Model with 3D Scene Conditioning for Closed-Loop VLN'
     year: '2026'
   SUVd_ZIAAAAJ:W7OEmFMy1HYC:
     citations: 0
@@ -30,7 +34,7 @@ papers:
     title: Monocular event-inertial odometry with adaptive decay-based time surface and polarity-aware tracking
     year: '2024'
   SUVd_ZIAAAAJ:eQOLeE2rZwMC:
-    citations: 2
+    citations: 3
     title: 'GN0: Toward a Unified Paradigm for Generation, Evaluation, and Policy Learning in Visual-Language Navigation'
     year: '2026'
   SUVd_ZIAAAAJ:qjMakFHDy7sC:
@@ -42,6 +46,6 @@ papers:
     title: 'Riders: Radar-infrared depth estimation for robust sensing'
     year: '2024'
   SUVd_ZIAAAAJ:ufrVoPGSRksC:
-    citations: 0
+    citations: 1
     title: 'SAGE-Nav: Leveraging LLM Planning and Alignment Fusion for Hierarchical Scene Graph-Guided Navigation'
     year: '2026'
